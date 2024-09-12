@@ -6,7 +6,8 @@ public:
         int n= citations.size();
         for(int i=0;i<citations.size();i++){
             if(citations[i]>=citations.size()-i){
-                h= max(n-i,h);
+                h= n-i;
+                break;
             }
 
         }
