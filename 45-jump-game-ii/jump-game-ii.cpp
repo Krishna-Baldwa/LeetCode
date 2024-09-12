@@ -6,7 +6,7 @@ public:
 
         while(goal>0){
             int farthest = 0;
-            for(int i = nums.size()-2; i>=0; i--){
+            for(int i = goal-1; i>=0; i--){
                 if(i+nums[i] >= goal){
                     farthest = i;
                 }
