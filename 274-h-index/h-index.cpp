@@ -5,7 +5,7 @@ public:
         int h=0;
         int n= citations.size();
         for(int i=0;i<n;i++){
-            if(citations[i]>=citations.size()-i){
+            if(citations[i]>=n-i){
                 h= n-i;
                 break;
             }
