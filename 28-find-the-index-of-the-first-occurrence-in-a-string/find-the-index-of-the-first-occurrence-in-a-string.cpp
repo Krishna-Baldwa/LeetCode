@@ -9,7 +9,6 @@ public:
         int j=0;
         for(int i=0;i<h;i++){
             if(haystack[i] == needle[j]){
-                cout<<j<<"i"<<i;
                 if(j==n-1) return i-j;
                 j++;
                 continue;
